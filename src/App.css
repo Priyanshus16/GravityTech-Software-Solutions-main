@@ -1,0 +1,45 @@
+.Left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.Center {
+  flex: 1;
+  padding: 20px;
+}
+
+.List {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Right {
+  flex: 1;
+  padding: 20px;
+}
+.ContactItem {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.description {
+  font-weight: 500;
+  text-align: left;
+}
+
+.footerDiv {
+  height: 100px;
+}
+
+.footerText {
+  font-weight: 400;
+  font-size: 15px;
+}

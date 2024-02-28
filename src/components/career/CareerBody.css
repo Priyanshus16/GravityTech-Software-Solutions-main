@@ -1,0 +1,102 @@
+.recommendedjob {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.fulltime {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.jobtitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 28px;
+  color: #000000;
+  min-height: 53px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.req {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.circle {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: #f7ea82;
+}
+
+.experience {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin-left: 2%;
+}
+
+.viewDetailsbtn {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  width: 220px;
+  height: 55px;
+  justify-content: center;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: #f7ea82;
+  border: none;
+  border-radius: 10px 10px 10px 0px;
+  color: #0e0e0e;
+  margin-top: 15px;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .recommendedjob {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 61px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 480px) {
+    .recommendedjob {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        color: #000000;
+        text-align: center;
+        margin-bottom: 5%;
+      }
+}

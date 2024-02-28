@@ -1,0 +1,128 @@
+.webbodytitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  margin-bottom: 30px;
+}
+
+.webbodySubtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.webheading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.websubheading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 25px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.webbox {
+  background: #d9d9d9;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+.uppertext {
+  padding: 20px 5%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.lowertext {
+  padding: 20px 5%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.techheading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.techsubheading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: #000000;
+}
+
+.iconCard {
+  height: 72px;
+  background: #f5f4f0;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .webheading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .websubheading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .webheading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .websubheading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+}

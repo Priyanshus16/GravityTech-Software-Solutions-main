@@ -1,0 +1,25 @@
+
+.cloudcardTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+
+.cloudcardPara {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 35px;
+  /* or 194% */
+
+  text-align: justify;
+
+  color: #000000;
+}
+
+.cardTwo{
+  min-height: 250px;
+}

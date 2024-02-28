@@ -1,0 +1,44 @@
+.divTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  margin-bottom: 50px;
+}
+
+.cardBody {
+  background: #ffffff;
+  border: 1px solid rgba(135, 135, 135, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  width: 240px;
+  height: 213px;
+  display: flex;
+  justify-content: center;
+}
+
+.iconDiv {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #0e0e0e;
+}
+
+.cardBodyContent {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+
+}
+
+.divTwoParagraph {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+}

@@ -1,0 +1,233 @@
+.bodyTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 73px;
+}
+
+.bodySubtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.homeBody {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.divTwo {
+  background-color: #f5f4f0;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.divTwoTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 38px;
+}
+
+.divTwoPhoneTitle {
+  display: none;
+}
+
+.divTwoSubtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
+  text-align: justify;
+  margin-bottom: 27px;
+}
+
+.divTwoParagraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: justify;
+  margin-bottom: 35px;
+}
+
+.seeMoreBtn {
+  width: 150px;
+  height: 40px;
+  border: none;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.cardSection {
+  padding-top: 70px;
+}
+
+.cardSectionTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 24px;
+  margin-bottom: 70px;
+}
+
+.cardTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.cardPara {
+  text-align: justify;
+  font-style: normal;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  min-height: 300px;
+}
+
+.knowMore {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ff9802;
+}
+
+.homecardTwo{
+  min-height: 300px;
+}
+
+.cardTwoTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.cardTwoPara {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .bodyTitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 15px;
+  }
+
+  .bodySubtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .divTwoPhoneTitle {
+    text-align: center;
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 38px;
+  }
+  .divTwoTitle {
+    display: none;
+  }
+  .divTwoSubtitle {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .divTwoParagraph {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .cardPara {
+    min-height: 100px;
+  }
+}
+
+@media (max-width: 481px) {
+  .bodyTitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 15px;
+  }
+
+  .bodySubtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .homeBody {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .divTwoPhoneTitle {
+    text-align: center;
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 38px;
+  }
+  .divTwoTitle {
+    display: none;
+  }
+  .divTwoSubtitle {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .divTwoParagraph {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .cardPara {
+    min-height: 100px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .divTwoPhoneTitle {
+    text-align: center;
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 38px;
+  }
+  .divTwoTitle {
+    display: none;
+  }
+}
+
+@media (min-width:990px){
+  .cardOne{
+    min-height: 550px;
+  }
+}
