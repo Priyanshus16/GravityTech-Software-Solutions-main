@@ -35,7 +35,7 @@ const ContactUsBody = () => {
       <div className="row">
         <div className="col-lg-5 col-md-12 col-sm-12">
           <div style={{ marginTop: "30px" }}>
-            <iframe id="myFrame"
+            <iframe title="myFrame"
               src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3783.532977190353!2d73.8308770235521!3d18.504801969658995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sFlat%20No.%2001%2C%20Deepashri%20Society%2C%20Building%20No%202%2C%20Mhatre%20Bridge%2C%20opp.%20Reliance%20Mall%2C%20Erandwane%2C%20Pune%2C%20Maharashtra%C2%A0411004%20!5e0!3m2!1sen!2sin!4v1689419958409!5m2!1sen!2sin" 
               width="100%"
               height="420"
